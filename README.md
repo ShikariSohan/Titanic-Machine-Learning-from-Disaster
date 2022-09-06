@@ -2,8 +2,8 @@
 It is getting a start problem of  [Kaggle](https://kaggle.com)  
 Read the problem description to the understand the problem   
 Link of the problem [Titanic](https://www.kaggle.com/competitions/titanic)  
-	> I have no idea How to run a model or what a model is. 
-    So I approached this problem with my basic sense of if-else conditions and loops. 
+> I have no idea How to run a model or what a model is. 
+So I approached this problem with my basic sense of if-else conditions and loops. 
 ### Score of the provided code : *0.76555*  
 ### Max Score of mine : *0.76794*  
 ![max_score](https://github.com/ShikariSohan/Titanic-Machine-Learning-from-Disaster/blob/master/max_score.png)
