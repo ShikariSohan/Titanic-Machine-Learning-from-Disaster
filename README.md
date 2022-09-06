@@ -5,8 +5,7 @@ Link of the problem [Titanic](https://www.kaggle.com/competitions/titanic)
 
 ### Score of the provided code : *0.76555*  
 ### Max Score of mine : *0.76794*  
-
-
+![max_score](https://github.com/ShikariSohan/Titanic-Machine-Learning-from-Disaster/blob/master/max_score.png)
 ## Idea / Approach :   
 	> I have no idea How to run a model or what a model is. 
     So I approached this problem with my basic sense of if-else conditions and loops.  
@@ -25,9 +24,10 @@ Sex : male  (0.188908)
 Embarked  : S (0.336957)
 Pclass : 2 (0.472826)
 
-If a row has these values of those corresponding columns then sum of survival rate is 0.188908+0.336957+0.472826=0.998691
+If a row has these values of those corresponding columns then sum of survival rate is   
+0.188908+0.336957+0.472826=0.998691  
 ```
-Its time to predict . So I give a threshold value that determines a person is surivived or not.  
+Its time to predict . So I give a threshold value that determines a person is surivived or not.   
 ` if threshold <= sum of survial rate ? Survived : Not Survived `  
 To find a ideal threshold value I loop through 1 to 3 interval of 0.01 and compare the prediction of mine and actual survived column   
 and find the accuracy from the train data.  
