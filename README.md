@@ -8,7 +8,8 @@ Link of the problem [Titanic](https://www.kaggle.com/competitions/titanic)
 
 
 ## Idea / Approach :   
-I have no idea How to run a model or what a model is. So I approached this problem with my basic sense of if-else conditions and loops.  
+	> I have no idea How to run a model or what a model is. 
+    So I approached this problem with my basic sense of if-else conditions and loops.  
 I chose 7 columns from the data to start with.  
 `col = ['Pclass','Sex', 'Age', 'SibSp','Parch', 'Embarked']`  
 I then use the provided test data to determine the survival rate for each column value.  
@@ -30,8 +31,9 @@ Its time to predict . So I give a threshold value that determines a person is su
 ` if threshold <= sum of survial rate ? Survived : Not Survived `  
 To find a ideal threshold value I loop through 1 to 3 interval of 0.01 and compare the prediction of mine and actual survived column   
 and find the accuracy from the train data.  
-`Ideal Threshold :2.5600000000000014 - Train Data Accuracy : **0.8114478114478114**`  
+`Ideal Threshold :2.5600000000000014 - Train Data Accuracy : 0.8114478114478114`  
 By using this theshold I predict the survival of the train data and managed to score **0.76555**  
-After that I tweak the threshold value between 2.4 - 2.5 and then max score become **0.76794**  
+After that I randomly tweaked the threshold value between 2.4 - 2.5 and achived my personal max score **0.76794**  
+
 
 
